@@ -8,3 +8,10 @@ MouseEventHandler<HTMLButtonElement>;
 btnType?: "button" | "submit";
 
 }
+export interface SearchManufacturerProps {
+manufacturers: string;
+setManufacturers:(manufacturers: string)=>void;
+
+}
+
+
