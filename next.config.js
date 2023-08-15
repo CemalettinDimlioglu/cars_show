@@ -4,8 +4,10 @@ images: {
 domains:['cdn.imagin.studio']
 }
 typescript:{
-ignoreBuildErrors:true, //
-}
+ignoreBuildErrors:true, 
+//
 }
 
-module.exports = nextConfig
+}
+
+module.exports = nextConfig;
